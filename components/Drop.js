@@ -8,6 +8,7 @@ const Drop = () => {
     <div className={styles.main}>
       <div className={styles.image}>
         <Image
+          priority
           src="/blit.webp"
           alt="blit"
           width={600}
@@ -47,8 +48,8 @@ const Drop = () => {
               ry="24"
               fill="transparent"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-dasharray="4,4"
+              strokeWidth="2"
+              strokeDasharray="4,4"
             ></rect>
           </svg>
           <span className={styles.cta}>Learn more</span>

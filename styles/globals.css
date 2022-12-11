@@ -1,13 +1,6 @@
 html,
 body {
-  --colors-background: #e5e5e1;
-  --colors-text: #050505;
-  --colors-black: #050505;
-  --colors-gray: #d9d9d8;
-  --colors-white: #d9d9ce;
   --colors-grid: #cdcdcb;
-  --colors-orange: #d93f21;
-  --colors-tangerine: #cc751f;
 
   padding: 0;
   margin: 0;
