@@ -11,7 +11,9 @@
   "dependencies": {
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "remux-preview": "^0.1.2",
+    "sass": "^1.56.2"
   },
   "devDependencies": {
     "eslint": "8.29.0",
