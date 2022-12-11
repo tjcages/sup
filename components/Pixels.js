@@ -3,7 +3,7 @@ import React from "react";
 import styles from "../styles/pixels.module.scss";
 
 const Pixels = () => {
-  const dots = [...Array(130).keys()];
+  const pixels = [...Array(130).keys()];
 
   const randomNumber = (min = 0, max = 1) => {
     return Math.random() * (max - min) + min;
@@ -24,7 +24,7 @@ const Pixels = () => {
         patternUnits="userSpaceOnUse"
         patternContentUnits="userSpaceOnUse"
       >
-        {dots.map((dot, index) => {
+        {pixels.map((dot, index) => {
           const x = 3 + (index % 8) * 8;
           const y = 3 + Math.floor(index / 8) * 8;
 
